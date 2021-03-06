@@ -1,0 +1,48 @@
+
+# Python: Practical 1 
+
+# sep
+print('var', 'aan', 'si', sep='--')
+
+
+# end
+print('Line 1', end='  ')
+print('Line 2')
+
+
+# input
+name = input('Enter your name ')
+print(name)
+
+
+# random module
+from random import *
+name = random.randint(1, 10)
+print(name)
+
+# math
+from math import pi
+from math import sin
+print(sin(2.2))
+print(tan(1))
+print(pi)
+
+
+# operations
+q = True
+print(q)
+print(abs(-4.2))
+print(round(3.3233, 2))
+
+
+# input from other data-types
+age = int(input('Enter your age '))
+pi = float(input('Enter value of pi '))
+city_name = input('Enter your city name ')
+
+
+# function syntax
+def test():
+    print('This is the test function ')
+    
+test()

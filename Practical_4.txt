@@ -1,0 +1,47 @@
+
+
+# type()
+print(type(11))
+print(type(33.33))
+print(type('Hello'))
+print(type([33, 44, 56]))
+dict = {age: 10, name: 'CJ'}
+print(type(dict))
+
+
+# id
+name = 'Tommy'
+print(id(name))
+age = 10
+print(id(age))
+list = ['Micheal', 'Traver', 'Franklin']
+print(id(list))
+
+
+def wishWithParameter(message):
+    print(message)
+
+# int()
+print(int(2.224))
+print(float(2))
+print(float('Hello'))       # error
+
+
+# function inside fuction
+print(tan(sin(3)))
+x = log(sin(22.22))
+print(x)
+
+
+# function
+def wish():
+    print('Good morning')
+    print('Welcome')
+
+wish()
+
+
+
+# function with parameters
+
+wishwithParameter('Good night, Bye !')

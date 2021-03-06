@@ -1,0 +1,105 @@
+
+# Python: Practical 2
+
+# Boolean Expressions
+booleanValue = True
+print(booleanValue)
+boolenValue =  False
+print(booleanValue)
+
+
+# 'not' operator
+booleanValue = not True
+print(booleanValue)
+boolaenValue = not False
+print(booleanValue)
+
+
+# 'or', 'and' operators
+x = True
+y = False
+print(x or y)
+print(x and y)
+print(not x or not y)
+print(not x and not y)
+
+
+
+# String
+some_string = 'Hello'    # single quotes string
+print(some_string)
+other_string = "World"    # double quotes string
+print(other_string)
+long_string = '''This is a triple quotes string and
+    it is a multiple line string in Python
+'''
+print(long_string)
+
+
+
+# len()
+length = len(long_string)    # we will get the length of string with the function len()
+print(length)
+print(len("Hello Python"))
+
+
+
+# string concatination
+my_string = 'good' + 'morning'
+print(my_string)
+name = 'Wadia College'
+print('Name of my collge is: '+ name)
+
+
+
+# string multiplication operator
+my_collge_name = 'Wadia College'
+print(my_collge_name * 5)    # this will print Wadia Collge 5 times
+
+
+
+# indexing in string, positive and negative indexing
+string = 'Python'
+string[0]    # P
+string[1]    # y
+string[2]    # t
+
+string[-1]   # n
+string[-2]   # o
+string[-3]   # h
+
+
+
+# string slicing
+string = 'Hello'
+string[0: 4: 1]
+string[-1: ]
+
+
+
+
+# list
+empty_list = []
+print(empty_list)
+my_list = [3, 33, 55, 56]
+print(my_list)
+mixed_list = [33, 'Shreyas', 'Varan']
+print(mixed_list)
+
+
+
+# list slicing
+my_list = [3, 5, 55, 66, 556]
+my_list[0: ]
+my_list[-1: ]
+# note that, slicing is also possible in list along with string
+
+
+
+
+# list concatination
+list1 = [2, 33, 333]
+list2 = [33, 3343, 1111]
+add_list = list1 + list2
+print(add_list)
+
